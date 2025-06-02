@@ -1,7 +1,7 @@
 
 import { EventEmitter } from 'events'
 import { RequestInit } from 'node-fetch'
-import * as puppeteer from 'puppeteer'
+import * as puppeteer from 'puppeteer-core'
 import InterfaceController from './src/util/InterfaceController'
 
 declare namespace WAWebJS {
